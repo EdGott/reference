@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/* Elements */
+
+header {
+    text-decoration: underline;
+    padding-top: 50px;
+}
+
+nav{
+    text-decoration: none;
+    padding: auto;
+    z-index: 1;
+}
+
+p {
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+body {
+    height: 100%;
+    margin: auto;
+}
+
+thead th {
+    padding: 15px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+tbody {
+    text-align: center;
+    clear: both;
+    position: relative;
+}
+
+tbody th {
+    font-size: 13px;
+    padding: 5px;
+    color: rgb(86, 181, 219);
+}
+
+tbody tr td {
+    padding: 15px;
+    font-size: 13px;
+}
+
+span {
+    text-align: center;
+    font-size: 11px;
+    font-weight: thin;
+    letter-spacing: 1px;
+}
+
+/* Classes */
+
+.homebutton {
+    display: inline-block;
+    position: relative;
+    margin: 25px;
+    padding: 15px;
+    background-color: black;
+    border: 5px gray outset;
+    color: white;
+    text-decoration: none;
+    border-radius: 25%;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    margin: 25px;
+    margin-bottom: 150px;
+    top: 50px;
+    background-color: black;
+    border: 5px gray outset;
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    border-radius: 25%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    float: none;
+    z-index: 10;
+}
+
+.elements {
+    min-width: 150px;
+}
+
+.attributes {
+    min-width: 150px;
+    max-width: 200px;
+}
+
+.values {
+    min-width: 200px;
+    max-width: 250px;
+}
+
+.closing {
+    max-width: 75px;
+    min-width: none;
+}
+
+.description {
+    max-width: 300px;
+}
+
+.children {
+    color: rgb(86, 181, 219);
+}
+
+.foot {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    z-index: 10;
+    font-size: 10px;
+}
+
+/* ID's */
+
+#closing {
+    max-width: 50px;
+}
+
+#homefoot {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 10px;
+    padding-top: 75px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
